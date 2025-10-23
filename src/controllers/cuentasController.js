@@ -32,4 +32,20 @@ function getCuentaById(req, res) {
   return res.json({ finded: true, account: found });
 }
 
-module.exports = { getCuentas, getCuentaById };
+function parseBalance(balStr) {
+  if (!balStr) return 0;
+  const cleaned = String(balStr).replace(/[^0-9.-]+/g, '');
+  const n = parseFloat(cleaned);
+  return Number.isFinite(n) ? n : 0;
+}
+
+function getCuentasBalance(req, res) {
+  const list = Array.isArray(cuentas) ? cuentas : [];
+  const activeAccounts = list.filter(c => c && c.isActive === true);
+  if (activeAccounts.length === 0) return res.json({ status: false, accountBalance: 0 });
+  const total = activeAccounts.reduce((acc, accObj) => acc + parseBalance(accObj.balance), 0);
+  const totalRounded = Math.round((total + Number.EPSILON) * 100) / 100;
+  return res.json({ status: true, accountBalance: totalRounded });
+}
+
+module.exports = { getCuentas, getCuentaById, getCuentasBalance };
