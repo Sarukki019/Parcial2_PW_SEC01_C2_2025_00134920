@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "68f9723de4ada9410b91964a",
+    "isActive": true,
+    "picture": "./src/img/persona.png",
+    "balance": "$900.97",
+    "client": "Christa Rice",
+    "gender": "female"
+  },
+  {
+    "_id": "68f9723d7e79d083fa57af25",
+    "isActive": true,
+    "picture": "./src/img/persona.png",
+    "balance": "$3,539.93",
+    "client": "Abigail Ewing",
+    "gender": "female"
+  },
+  {
+    "_id": "68f9723d14935010d9a45545",
+    "isActive": false,
+    "picture": "./src/img/persona.png",
+    "balance": "$2,645.16",
+    "client": "Stanley Gibbs",
+    "gender": "male"
+  },
+  {
+    "_id": "68f9723de03a46a55decec30",
+    "isActive": false,
+    "picture": "./src/img/persona.png",
+    "balance": "$3,464.51",
+    "client": "Alba Patton",
+    "gender": "female"
+  },
+  {
+    "_id": "68f9723d3cad6694c17efcbc",
+    "isActive": true,
+    "picture": "./src/img/persona.png",
+    "balance": "$181.44",
+    "client": "Corina Riddle",
+    "gender": "female"
+  },
+  {
+    "_id": "68f972680afd9397ea1613e4",
+    "isActive": false,
+    "picture": "./src/img/persona.png",
+    "balance": "$2,955.40",
+    "client": "Guy Clements",
+    "gender": "male"
+  },
+  {
+    "_id": "68f97268833882371974f93b",
+    "isActive": true,
+    "picture": "./src/img/persona.png",
+    "balance": "$777.32",
+    "client": "Weeks Rodgers",
+    "gender": "male"
+  },
+  {
+    "_id": "68f97268d9972e32f60f0e31",
+    "isActive": true,
+    "picture": "./src/img/persona.png",
+    "balance": "$1,057.02",
+    "client": "Cervantes Miles",
+    "gender": "male"
+  },
+  {
+    "_id": "68f97268e569aaa4d9de9fa5",
+    "isActive": true,
+    "picture": "./src/img/persona.png",
+    "balance": "$2,673.49",
+    "client": "Eva Mcknight",
+    "gender": "female"
+  },
+  {
+    "_id": "68f97268278d13998666bee6",
+    "isActive": true,
+    "picture": "./src/img/persona.png",
+    "balance": "$1,009.11",
+    "client": "Eddie Mejia",
+    "gender": "female"
+  }
+]
